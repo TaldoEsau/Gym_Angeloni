@@ -1,0 +1,147 @@
+body {
+    background-image: url(Fundo-Preto-com-Azul.png);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex; /*pode ser um flex aqui tbm*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    
+  }
+  
+  
+  button {
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; 
+  }
+  
+  button:hover {
+    background-color: #2980b9; 
+  }
+  
+  
+  a {
+    color: #3498db; 
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2980b9; 
+  }
+  
+  
+  section {
+    margin-bottom: 20px; 
+  }
+  
+  
+  #video {
+    margin-top: 20px; 
+    
+  }
+  
+  
+  #fotos img {
+    border-color: #2980b9;
+    border-style: solid;
+    width: 700px; 
+    height: auto;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #fotosClientes img {
+    border-color: #2980b9;
+    border-style: solid;
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  #promocao1, #promocao2 {
+    background-color: #2980b9; 
+    padding: 20px;
+    border-radius: 50px 0;
+    border-color: #ffff;
+    border-style: double;
+    align-items: center;
+    justify-content: center;  
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  
+  
+  #carrossel {
+
+    background-color: #3498db; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; 
+    margin: 0 auto; 
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .slide {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 100%; /
+  }
+  
+  .slide img {
+    width: 100%; 
+  }  
+
+  #contato {
+    margin-bottom: 50px; 
+  }
+  
+  button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2980b9;
+    color: black;
+  }
+
+  #p1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: aliceblue;
+    
+  }
+
+  #h22{
+    font-family: cursive;
+    border-width: 5px;
+    border-right: 5px;
+    color: aliceblue;
+    font-size: 60px;
+    background-color: #2980b9;
+  }
+
+  h2{
+    font-family: cursive;
+  }

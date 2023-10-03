@@ -1,0 +1,6 @@
+Mechi no BUTTON,P1,H22,H2 e mudei as img do carrossel
+
+Obs: Tem que arrumar o Slide do carrossel, nao esta parecendo todas as imgs
+
+Coloquei bordas nas imgs
+
